@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/colorSecondary" tools:context=".quiz.QuizLevel1Activity">
+
+    <TextView android:id="@+id/txt_title_quiz" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:textSize="18dp" android:textStyle="bold" android:textColor="@android:color/white" android:textAlignment="center" android:gravity="center" android:background="@color/colorPrimary" android:minHeight="?attr/actionBarSize"/>
+
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20dp" android:orientation="vertical">
+            <android.support.v7.widget.CardView android:layout_margin="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="20dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SOAL 1" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="3dp" android:background="@color/colorPrimary" android:orientation="horizontal">
+                    </LinearLayout>
+                    <TextView android:id="@+id/txt_quiz_level1_soal1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/level1_soal1" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+                    <RadioGroup android:id="@+id/rg_quiz_level1_soal1" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left" android:orientation="vertical">
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal1_pilihan_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="A"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal1_pilihan_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="B"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal1_pilihan_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="C"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal1_pilihan_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="D"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_margin="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="20dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SOAL 2" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="3dp" android:background="@color/colorPrimary" android:orientation="horizontal">
+                    </LinearLayout>
+                    <TextView android:id="@+id/txt_quiz_level1_soal2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/level1_soal1" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+                    <RadioGroup android:id="@+id/rg_quiz_level1_soal2" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left" android:orientation="vertical">
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal2_pilihan_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="A"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal2_pilihan_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="B"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal2_pilihan_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="C"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal2_pilihan_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="D"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_margin="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="20dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SOAL 3" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="3dp" android:background="@color/colorPrimary" android:orientation="horizontal">
+                    </LinearLayout>
+                    <TextView android:id="@+id/txt_quiz_level1_soal3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/level1_soal1" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+                    <RadioGroup android:id="@+id/rg_quiz_level1_soal3" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left" android:orientation="vertical">
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal3_pilihan_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="A"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal3_pilihan_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="B"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal3_pilihan_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="C"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal3_pilihan_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="D"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_margin="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="20dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SOAL 4" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="3dp" android:background="@color/colorPrimary" android:orientation="horizontal">
+                    </LinearLayout>
+                    <TextView android:id="@+id/txt_quiz_level1_soal4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/level1_soal1" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+                    <RadioGroup android:id="@+id/rg_quiz_level1_soal4" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left" android:orientation="vertical">
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal4_pilihan_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="A"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal4_pilihan_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="B"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal4_pilihan_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="C"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal4_pilihan_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="D"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_margin="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="20dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SOAL 5" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="3dp" android:background="@color/colorPrimary" android:orientation="horizontal">
+                    </LinearLayout>
+                    <TextView android:id="@+id/txt_quiz_level1_soal5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/level1_soal1" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+                    <RadioGroup android:id="@+id/rg_quiz_level1_soal5" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left" android:orientation="vertical">
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal5_pilihan_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="A"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal5_pilihan_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="B"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal5_pilihan_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="C"/>
+                        <RadioButton android:id="@+id/rb_quiz_level1_soal5_pilihan_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="D"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <Button android:id="@+id/btn_hasil_quiz_leve1" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="10dp" android:text="CEK HASIL" android:textSize="15sp" android:textColor="@android:color/white" android:background="@drawable/bg_button_green"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

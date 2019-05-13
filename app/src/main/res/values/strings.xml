@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">Junior Math Quiz</string>
+    <string name="nama_pembuat"> Ahmad Satria</string>
+    <string name="nim">170103050</string>
+    <string name="jurusan">Tadris Matematika</string>
+    <string name="Fakultas">FTK</string>
+    <string name="kampus">UIN Mataram</string>
+
+    <string name="materi">
+        PENGERTIAN FUNGSI DALAM MATEMATIKA\n\n
+        Fungsi dalam matematika adalah suatu relasi yang menghubungkan setiap anggota x dalam suatu himpunan yang disebut daerah asal (Domain) dengan suatu nilai tunggal f(x) dari suatu himpunan kedua yang disebut daerah kawan (Kodomain). Himpunan nilai yang diperoleh dari relasi tersebut disebut daerah hasil ( Range).
+        Pada fungsi, terdapat beberapa istilah penting, di antaranya:\n
+        - Domain yaitu daerah asal fungsi fdilambangkan dengan Df.\n
+        - Kodomain yaitu daerah kawan fungsi fdilambangkan dengan Kf.\n
+        - Range yaitu daerah hasil yang merupakan himpunan bagian dari kodomain. Range fungsi fdilambangkan dengan Rf.\n\n
+        SIFAT-SIFAT FUNGSI\n
+        1. FUNGSI INJEKTIF\n
+        Disebut fungsi satu-satu . Misalkan fungsi f menyatakan A ke B maka fungsi f disebut suatu fungsi satu-satu (injektif), apabila setiap dua elemen yang berlainan di A akan dipetakan pada dua elemen yang berbeda di B. Selanjutnya secara singkat dapat dikatakan bahwa f:A→B adalah fungsi injektif apabila a ≠ b berakibat f(a) ≠ f(b) atau ekuivalen, jika f(a) = f(b) maka akibatnya a = b.\n
+        2. FUNGSI SURJEKTIF\n
+        Fungsi f: A → B disebut fungsi kepada atau fungsi surjektif jika dan hanya jika untuk sembarang b dalam kodomain Bterdapat paling tidak satu a dalam domain A sehingga berlaku f(a) = b. Dengan kata lain, suatu kodomain fungsi surjektif sama dengan kisarannya (range).\n
+        3. FUNGSI BIJEKTIF\n
+        Suatu pemetaan f: A→B sedemikian rupa sehingga f merupakan fungsi yang injektif dan surjektif sekaligus, maka dikatakan “f adalah fungsi yang bijektif” atau “ A dan B berada dalam korespondensi satu-satu”.\n\n
+        JENIS-JENIS FUNGSI\n
+        1. FUNGSI LINEAR\n
+        Fungsi pada bilangan real yang didefinisikan : f(x) = ax + b, a dan b konstan dengan a ≠ 0 disebut fungsi linear\n\n
+        2. FUNGSI KONSTAN\n
+        Misalkan f:A→B adalah fungsi di dalam A maka fungsi f disebut fugsi konstan jika dan hanya jika jangkauan dari f hanya terdiri dari satu anggota.\n\n
+        3. FUNGSI IDENTITAS\n
+        Misalkan f:A→B adalah fungsi dari A ke B maka f disebut fungsi identitas jika dan hanya jika range f = kodomain atau f(A)=B.\n\n
+        4. FUNGSI KUADRAT\n
+        Fungsi f: R→R yang ditentukan oleh rumus f(x)=ax2+bx+c dengan a,b,c∈R dan a≠0 disebut fungsi kuadrat.\n\n
+        SOAL DAN PEMBAHASAN\n\n
+        1. Mana dari himpunan A, B dan C berikut ini yang merupakan fungsi ?\n
+        A = {(1,1),(2,3),(3,5),(4,7),(5,8)}\n
+        B ={(1,6),(1,7),(2,8),(3,9),(4,10)}\n
+        C ={(2,5),(3,6),(4,7)}\n
+        Jawab:\n
+        Yang merupakan pemetaan atau fungsi adalah himpunan A dan C. B bukan fungsi
+        sebab pada himpunan B domain 1 muncul dua kali (berelasi dengan nilai 6 dan 7 pada
+        kodomain).\n\n
+        1. Diketahui f(x)=ax+b. dengan f(-4)=-3 dan f(2)=9 Tentukan nilai a dan b kemudian tuliskan fungsinya.\n
+        Jawab:\n
+        f(x)=ax+b\n
+        f(-4)=a(-4)+b=-3\n
+        -4a+b=-3…….(1)\n
+        f(2)=a.2+b=9\n
+        2a+b=9…….(2)\n\n
+        Eliminasikan 1 dan 2 diperoleh:\n
+        -4a+b=-3\n
+        2a+b=9-\n
+        -6a=–12\n
+        a=2,\n\n
+        substitusi nilai a=2 ke 2a+b=9\n
+        2.(2)+b=9\n
+        4+b=9\n
+        b=5\n
+        Jadi fungsinya f(x)=2x+5\n\n
+        2. Diketahui, jika :\n
+        A ={2,3,6}\n
+        B ={2,4,6,8,10,11}\n
+        Tuliskan domain, kodomain, range dari relasi diatas?\n\n
+        jawab :\n
+        Domain ={2,4,6}\n
+        Kodomain ={2,4,6,8,10,11}\n
+        Range ={2,4,6,8,10}\n\n
+        Ciri-ciri Fungsi (Pemetaan)\n
+        Pemetaan dari himpunan A ke himpunan B berlaku ketentuan berikut:\n
+        1.Himpunan A dan himpunan B bukan himpunan kosong\n
+        2.Pasangan setiap anggota himpunan A tidak boleh lebih dari satu.\n
+        3.Setiap anggota himpunan A harus mempunyai pasangan di himpunan B.\n
+        4.Anggota himpunan B boleh tidak mempunyai pasangan di A atau mempunyai pasangan lebih dari satu.\n
+        Suatu fungsi dapat dinyatakan dengan cara diagram panah, diagram Cartesius dan himpunan pasangan berurutan.\n\n
+        Cara Menyajikan Suatu Fungsi\n
+        Masih ingatkah Anda cara menyajikan suatu relasi? Untuk menyajikan suatu fungsi caranya sama seperti menyajikan suatu relasi, karena fungsi merupakan bentuk khusus dari suatu relasi. Anda harus ingat juga perbedaan relasi dengan fungsi. Ada tiga cara dalam menyajikan suatu fungsi yaitu dengan diagram panah, diagram Cartesius, dan himpuan pasangan berurutan.
+        Untuk menyajikan suatu fungsi Anda harus paham cara menentukan nilai suatu fungsi (Silahkan baca: cara menentukan notasi dan nilai suatu fungsi). Untuk memantapkan pemahaman Anda tentang cara menyajikan suatu fungsi silahkan simak contoh berikut ini. Misalkan P = {0, 2, 4} dan Q = {–3, –2, –1, 0, 1, 2, 3}. Jika fungsi f: P Q ditentukan dengan f(x) = x – 2 maka:\n
+        f(0)=0–2=–2\n
+        f(2)=2–2=0\n
+        f(4)=4–2=2\n
+        Dari soal tersebut diketahui bahwa himpunan P={0,2,4}  merupakan domain (daerah asal), himpunan Q={–3,–2,–1,0,1,2,3} merupakan kodomain (daerah kawan) dan range (daerah hasil) yaitu {(–2, 0, 2)}. Nah sekarang dari hal tersebut kita sajikan ke dalam bentuk:\n
+        a. Diagram Panah\n
+        b. Diagram Cartesius\n
+        c. Himpunan Pasangan Berurutan\n
+        Himpunan pasangan berurutan dari fungsi f tersebut adalah {(0,–2),(2,0),(4,2)}.\n
+    </string>
+
+    <string name="level1_soal1">
+        Pada pemetaan bayangan dari 2 adalah …
+    </string>
+    <string name="level1_pilihanganda_soal1_a">3</string>
+    <string name="level1_pilihanganda_soal1_b">5</string>
+    <string name="level1_pilihanganda_soal1_c">8</string>
+    <string name="level1_pilihanganda_soal1_d">9</string>
+    <string name="level1_jawaban_soal1">A</string>
+
+
+    <string name="level1_soal2">
+        Pada pemetaan maka h(5) adalah …
+    </string>
+    <string name="level1_pilihanganda_soal2_a">30</string>
+    <string name="level1_pilihanganda_soal2_b">29</string>
+    <string name="level1_pilihanganda_soal2_c">60</string>
+    <string name="level1_pilihanganda_soal2_d">70</string>
+    <string name="level1_jawaban_soal2">B</string>
+
+
+    <string name="level1_soal3">
+        Pada pemetaan  f:5–x, jika daerah asalnya {-3,-2,-1,0.1,2,3,4}, maka daerah hasilnya adalah …
+    </string>
+    <string name="level1_pilihanganda_soal3_a">1,2,3,4,5,6,8,7</string>
+    <string name="level1_pilihanganda_soal3_b">8,7,6,5,4,3,2,1</string>
+    <string name="level1_pilihanganda_soal3_c">1,2,3,6,5,4,7,8</string>
+    <string name="level1_pilihanganda_soal3_d">1,2,3,4,5,6,7,8</string>
+    <string name="level1_jawaban_soal3">D</string>
+
+
+    <string name="level1_soal4">
+        Pada pemetaan  jika daerah asalnya {x|x5,x Î bilangan asli}, maka daerah hasilnya adalah …
+    </string>
+    <string name="level1_pilihanganda_soal4_a">4,8,12,16,20</string>
+    <string name="level1_pilihanganda_soal4_b">4,9,12,26,20</string>
+    <string name="level1_pilihanganda_soal4_c">4,9,22,26,20</string>
+    <string name="level1_pilihanganda_soal4_d">4,8,22,16,30</string>
+    <string name="level1_jawaban_soal4">A</string>
+
+
+    <string name="level1_soal5">
+        Pada pemetaan jika daerah asalnya x Î {2,3,4,5}, rangenya adalah …
+    </string>
+    <string name="level1_pilihanganda_soal5_a">8,12,14,17</string>
+    <string name="level1_pilihanganda_soal5_b">9,12,14,17</string>
+    <string name="level1_pilihanganda_soal5_c">8,11,14,17</string>
+    <string name="level1_pilihanganda_soal5_d">9,11,14,17</string>
+    <string name="level1_jawaban_soal5">C</string>
+
+
+    <string name="level2_soal1">
+        Fungsi f dinyatakan dengan rumus f(x)=px+q, jika f(0)=–2 dan f(2)=4, maka nilai p dan q berturut-turut adalah …
+    </string>
+    <string name="level2_pilihanganda_soal1_a">-2 dan 3</string>
+    <string name="level2_pilihanganda_soal1_b">-2 dan -3</string>
+    <string name="level2_pilihanganda_soal1_c">2 dan 3</string>
+    <string name="level2_pilihanganda_soal1_d">2 dan 3</string>
+    <string name="level2_jawaban_soal1">A</string>
+
+    <string name="level2_soal2">
+        Diketahui fungsi f:x---> ax–7 dan f(5)=18, maka nilai a adalah …
+    </string>
+    <string name="level2_pilihanganda_soal2_a">3</string>
+    <string name="level2_pilihanganda_soal2_b">7</string>
+    <string name="level2_pilihanganda_soal2_c">6</string>
+    <string name="level2_pilihanganda_soal2_d">5</string>
+    <string name="level2_jawaban_soal2">D</string>
+
+
+    <string name="level2_soal3">
+        Diketahui fungsi f:x---> 3x–11 dan f(a)=–20, maka nilai a adalah …
+    </string>
+    <string name="level2_pilihanganda_soal3_a">4</string>
+    <string name="level2_pilihanganda_soal3_b">-4</string>
+    <string name="level2_pilihanganda_soal3_c">3</string>
+    <string name="level2_pilihanganda_soal3_d">-3</string>
+    <string name="level2_jawaban_soal3">D</string>
+
+
+    <string name="level2_soal4">
+        Pada pemetaan f:x--->3x+2,jika f:(a)→38, maka nilai a adalah …
+    </string>
+    <string name="level2_pilihanganda_soal4_a">90</string>
+    <string name="level2_pilihanganda_soal4_b">12</string>
+    <string name="level2_pilihanganda_soal4_c">13</string>
+    <string name="level2_pilihanganda_soal4_d">99</string>
+    <string name="level2_jawaban_soal4">B</string>
+
+
+    <string name="level2_soal5">
+        Diketahui fungsi , jika f(a)---> 4, maka nilai a adalah …
+    </string>
+    <string name="level2_pilihanganda_soal5_a">5</string>
+    <string name="level2_pilihanganda_soal5_b">8</string>
+    <string name="level2_pilihanganda_soal5_c">9</string>
+    <string name="level2_pilihanganda_soal5_d">4</string>
+    <string name="level2_jawaban_soal5">A</string>
+
+
+    <string name="level3_soal1">
+        Fungsi f dinyatakan dengan rumus f(x)=ax+b, jika f(2)=13 dan f(5)=22, maka rumus fungsi f(x) adalah …
+    </string>
+    <string name="level3_pilihanganda_soal1_a">f(x)=-3x-7</string>
+    <string name="level3_pilihanganda_soal1_b">f(x)=-3x+7</string>
+    <string name="level3_pilihanganda_soal1_c">f(x)=3x-7</string>
+    <string name="level3_pilihanganda_soal1_d">f(x)=3x +7</string>
+    <string name="level3_jawaban_soal1">D</string>
+
+
+    <string name="level3_soal2">
+        Diketahui fungsi f(x)=ax–b,sedangkan f(3)=4 dan f(–5)=–28, maka nilai a dan b berturut-turut adalah …
+    </string>
+    <string name="level3_pilihanganda_soal2_a">4 dan 7</string>
+    <string name="level3_pilihanganda_soal2_b">5 dan 8</string>
+    <string name="level3_pilihanganda_soal2_c">5 dab 7</string>
+    <string name="level3_pilihanganda_soal2_d">4 dan 8</string>
+    <string name="level3_jawaban_soal2">D</string>
+
+
+    <string name="level3_soal3">
+        Fungsi f dinyatakan dengan rumus h(x)=px+q, jika h(–6)=32 dan h(4)=–8, maka nilai p dan q berturut-turut adalah …
+    </string>
+    <string name="level3_pilihanganda_soal3_a">-4 dan 8</string>
+    <string name="level3_pilihanganda_soal3_b">4 dan 7</string>
+    <string name="level3_pilihanganda_soal3_c">-4 dan 7</string>
+    <string name="level3_pilihanganda_soal3_d">4 dan 8</string>
+    <string name="level3_jawaban_soal3">A</string>
+
+    <string name="level3_soal4">
+        Diketahui fungsi f(x)=ax–b, sedangkan f(3)=7 dan f(–5)=–25, maka rumus fungsi f(x) adalah …
+    </string>
+    <string name="level3_pilihanganda_soal4_a">f(x)=4x-5</string>
+    <string name="level3_pilihanganda_soal4_b">f(x)=-4x-5</string>
+    <string name="level3_pilihanganda_soal4_c">60f(x)=-4x+5</string>
+    <string name="level3_pilihanganda_soal4_d">f(x)=4x+5</string>
+    <string name="level3_jawaban_soal4">A</string>
+
+
+    <string name="level3_soal5">
+        Fungsi f dinyatakan dengan rumus h(x)=px+q, jika h(–6)=32 dan h(4)=–8, maka rumus fungsi h(x) adalah …
+    </string>
+    <string name="level3_pilihanganda_soal5_a">f(x) =4x-8</string>
+    <string name="level3_pilihanganda_soal5_b">f(x) =4x+8</string>
+    <string name="level3_pilihanganda_soal5_c">f(x) =-4x+8</string>
+    <string name="level3_pilihanganda_soal5_d">f(x) =-4x-8</string>
+    <string name="level3_jawaban_soal5">C</string>
+
+
+</resources>
